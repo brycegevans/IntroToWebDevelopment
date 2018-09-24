@@ -2,17 +2,17 @@
 <!--
 Bryce Evans
 Sept 22 2018
-Mod Sept 22-->
+Mod Sept 23-->
 <html lang="en">
   <head>
-    <title> Restaurant</title>
+    <title> McBryce's Contact Us</title>
   </head>
   <body>
 
     <main>
 
       <header>
-        <p> Contact Us</p>
+        <p> Contact Us  <span style="float: right"><img src="img/circleB.jpg" alt="logo" width="30"height="30"/><img src="img/circleB.jpg" alt="logo" width="30"height="30"/><img src="img/circleBl.jpg" alt="logo" width="30"height="30"/> </span></p>
         <hr/>
         <h1><center> McBryce's</center>
         </h1>
@@ -27,12 +27,35 @@ Mod Sept 22-->
         <hr/>
       </header>
 
-      <section>
-
+      <section><center>
+        <article>
+        <br/>
+        <form action="fakepgae.html" method="POST">
+          Name: <input type="text" name="nameInput" size="28"/><br/><br/>
+          Email: <input type="text" name="emailInput" size="28"/><br/><br/>
+          Phone: <input type="text" name="phoneInput" size="28"/></br><br/>
+          Reason for Inquiry: <select name="inquiry" style="max-width: 90;">
+                                <option value="Catering">Catering </option>
+                                <option value="Private Party">Private Party</option>
+                                <option value="Feedback">Feedback</option>
+                                <option value="Other"> Other</option>
+                              </select><br/><br/>
+          Additional Information <textarea name="information"></textarea><br/><br/>
+          Have you ever been to the Restaurant? <input type="radio" name="answer" value="No" checked />No
+                                                <input type="radio" name="answer" value="Yes"/>Yes<br/><br/>
+          Best days to contact you: <input type="checkbox" name="day" value="M"/> M
+                                    <input type="checkbox" name="day" value="T"/> T
+                                    <input type="checkbox" name="day" value="W"/> W
+                                    <input type="checkbox" name="day" value="TH"/> TH
+                                    <input type="checkbox" name="day" value="F"/> F<br/><br/>
+                <input type="submit" value="Send Request"/>
+        </form>
+      </center>
+    </article>
       </section>
-
+      <br/>
       <footer>
-      </hr>
+      <hr/>
       <p><center>64th Street and Bell Rd, Scottsdale, AZ, 85435</center></p>
       <p><center>602-319-0368<center></p>
       </footer>
