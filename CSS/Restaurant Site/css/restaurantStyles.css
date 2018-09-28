@@ -1,0 +1,36 @@
+header, footer{
+  background-color: #d3d3d3;
+  border-radius: 30px;
+  border: solid black;
+  padding: 30px 10px 20px 10px;
+}
+header p{
+  font-family: arial;
+  margin-top: 2px;
+}
+header nav a{
+  margin: 10px;
+  color: orange;
+  padding: 0 20px;
+  background-color: blue;
+  border-radius: 20px;
+  border: solid black;
+  text-decoration: none;
+  font-family: cursive;
+}
+h1{
+  font-family: impact;
+}
+a:hover{
+  font-weight: bold;
+}
+a:visited{
+  background-color: lightblue;
+  color: black;
+}
+a:active{
+  text-decoration: none;
+}
+body{
+background: #99ccff;
+}
