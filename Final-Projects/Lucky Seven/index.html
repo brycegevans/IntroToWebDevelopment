@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/JavaScript" src="game.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        rel="stylesheet" type="text/css" />
+</head>
+<body style="margin: 10px">
+  <h1 style="font-weight: bold;"> Lucky Sevens</h1>
+  <p> Add your bet then hit play</p>
+  <form name="game">
+  <input type="number" name="bet">
+  <input type="button" value="PLAY" onclick="start()">
+</form>
+<h3> Results<h3>
+<table id="results" class="table table-striped" style="display: none;">
+  <tbody>
+    <tr>
+      <td> Starting Bet</td>
+      <td> $<span id="start"></span></td>
+    </tr>
+    <tr>
+      <td> Total Rolls Before $0</td>
+      <td> <span id="totalR"></span></td>
+    </tr>
+    <tr>
+      <td> Maximum Amount Earned</td>
+      <td>$<span id="high"></span></td>
+    </tr>
+    <tr>
+      <td> Roll Count on Highest Earned</td>
+      <td> <span id="highC"></span></td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
