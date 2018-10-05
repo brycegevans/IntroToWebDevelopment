@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/JavaScript" src="DisplayEvens.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        rel="stylesheet" type="text/css" />
+  <style>
+  .col-8{
+    margin: 20px;
+    width: 50%;
+  }
+  button{
+    margin: 20px;
+  }
+  </style>
+</head>
+<body>
+  <h1> Sample</h1>
+  <form name="numbers" onsubmit="calculate()" onreset="clear()">
+  <div class="col-8">
+    <input class="form-control" type="number" id="num1">
+  </div>
+  <div class="col-8">
+    <input class="form-control" type="number" id="num2">
+  </div>
+  <div class="col-8">
+    <input class="form-control" type="number" id="num3">
+  </div>
+   <button type="submit" class="btn btn-primary">Display Evens</button>
+  </form>
+  <div class="container" style="display: none;">
+     Here are the even numbers between the two numbers</br>
+     <div id=array></div>
+  </div>
+</body>
+</html>
